@@ -33,6 +33,7 @@ class Song
     @@genres.each do |genre|
       if genre_count[genre] != nil
       end
+    genre_count
     end
   end
   #binding.pry
