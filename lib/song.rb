@@ -40,7 +40,6 @@ class Song
   def self.artist_count
     artist_count = {}
     @@artists.each {|artist| artist_count[artist] += 1}
-    end
     artist_count
   end
 #binding.pry
